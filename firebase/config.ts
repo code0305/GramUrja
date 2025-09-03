@@ -24,7 +24,7 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBxaHf_AS6OZ9ytIRdLARNCfLp9NxAeY6M",
+  apiKey: process.env.api,
   authDomain: "gramurja-ea1db.firebaseapp.com",
   projectId: "gramurja-ea1db",
   storageBucket: "gramurja-ea1db.appspot.com",
